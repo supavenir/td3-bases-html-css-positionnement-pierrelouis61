@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+header, footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #00aaff;
+}
+main {
+    padding: 2rem;
+}
+.cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.blog-main {
+    display: flex;
+    gap: 2rem;
+}
+.articles {
+    flex: 3;
+}
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.tags {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.tags li {
+    background-color: #00aaff;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tags li:hover {
+    background-color: #0077aa;
+}
